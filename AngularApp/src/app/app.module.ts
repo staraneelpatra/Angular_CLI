@@ -11,6 +11,8 @@ import { EmpserviceService } from './empservice.service';
 import { AppleserviceService } from './appleservice.service';
 import { OrnageModule } from './/ornage.module';
 import { PineModule } from './/pine.module';
+import { YourdirectiveDirective } from './yourdirective.directive';
+import { MypipePipe } from './mypipe.pipe';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { PineModule } from './/pine.module';
     AbcComponent,
     FlatcmpntComponent,
     IncmpntComponent,
-    TestcmpntComponent
+    TestcmpntComponent,
+    YourdirectiveDirective,
+    MypipePipe
   ],
   imports: [
     BrowserModule,
