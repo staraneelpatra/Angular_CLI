@@ -7,6 +7,7 @@ import { AbcComponent } from './abc/abc.component';
 import { FlatcmpntComponent } from './flatcmpnt.component';
 import { IncmpntComponent } from './incmpnt/incmpnt.component';
 import { TestcmpntComponent } from './testcmpnt/testcmpnt.component';
+import { EmpserviceService } from './empservice.service';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { TestcmpntComponent } from './testcmpnt/testcmpnt.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [EmpserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
