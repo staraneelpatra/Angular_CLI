@@ -8,6 +8,9 @@ import { FlatcmpntComponent } from './flatcmpnt.component';
 import { IncmpntComponent } from './incmpnt/incmpnt.component';
 import { TestcmpntComponent } from './testcmpnt/testcmpnt.component';
 import { EmpserviceService } from './empservice.service';
+import { AppleserviceService } from './appleservice.service';
+import { OrnageModule } from './/ornage.module';
+import { PineModule } from './/pine.module';
 
 
 @NgModule({
@@ -19,9 +22,11 @@ import { EmpserviceService } from './empservice.service';
     TestcmpntComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    OrnageModule,
+    PineModule
   ],
-  providers: [EmpserviceService],
+  providers: [EmpserviceService, AppleserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
