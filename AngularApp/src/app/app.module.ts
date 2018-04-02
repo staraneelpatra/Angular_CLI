@@ -13,6 +13,7 @@ import { OrnageModule } from './/ornage.module';
 import { PineModule } from './/pine.module';
 import { YourdirectiveDirective } from './yourdirective.directive';
 import { MypipePipe } from './mypipe.pipe';
+import { HelaComponent } from './hela/hela.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MypipePipe } from './mypipe.pipe';
     IncmpntComponent,
     TestcmpntComponent,
     YourdirectiveDirective,
-    MypipePipe
+    MypipePipe,
+    HelaComponent
   ],
   imports: [
     BrowserModule,

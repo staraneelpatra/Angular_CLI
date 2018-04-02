@@ -7,11 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-
-
-sayHello() {
-  let mes = 'Hello';
-  mes = mes + 'anil';
-  console.log(mes);
-
-}}
+}
